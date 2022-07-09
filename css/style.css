@@ -22,8 +22,8 @@ main {
 }
 
 .card {
-    width: 260px;
-    height: 450px;
+    width: 275px;
+    height: 500px;
     margin-top: 0px auto;
     padding: 0px 5px;
     display: flex;
@@ -35,8 +35,8 @@ main {
 }
 
 img {
-    width: 230px;
-    height: 230px;
+    width: 260px;
+    height: 260px;
     border-radius: 10px;
 }
 
