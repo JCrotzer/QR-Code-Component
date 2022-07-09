@@ -7,9 +7,9 @@
 }
 
 body, html {
-    width: 350px;
-    height: 600px;
-    margin: 20px 70px;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
