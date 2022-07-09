@@ -24,7 +24,7 @@ main {
 .card {
     width: 285px;
     height: 500px;
-    margin-top: 20px auto;
+    /* margin-top: 40px auto; */
     padding: 0px 5px;
     display: flex;
     flex-direction: column;
@@ -42,24 +42,15 @@ img {
 
 h1 {
     font-size: 20px;
+    font-weight: 700;
     margin: 0 16px;
     text-align: center;
 }
 
 p {
     font-size: 15px;
+    font-weight: 400;
     color: hsl(220, 15%, 55%);
     margin: 0 15px;
     text-align: center;
-}
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    margin-top: 40px;
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-    margin-top: 20px;
 }
