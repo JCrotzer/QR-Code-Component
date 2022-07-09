@@ -4,16 +4,21 @@
     font-family: 'Outfit', sans-serif;
 }
 
-body, html {
+html, body {
     width: 100%;
     height: 100%;
-    margin: 20px auto;
+    background-color:hsl(212, 45%, 89%);
+}
+
+main {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:hsl(212, 45%, 89%);
 }
+
 .card {
     width: 260px;
     height: 450px;
@@ -58,9 +63,8 @@ p {
 }
 
 @media screen and (min-width : 820px) {
-    body, html {
+    main {
         width: 100%;
         height: 100%;
-        margin: 20px auto;
     }
 }
